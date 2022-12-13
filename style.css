@@ -1,0 +1,83 @@
+body{
+    background-image: url("bg2.jfif");
+    background-size: 80%;
+    color:black;
+    letter-spacing: 1px;
+
+}
+#wrapper{
+    background-color: #eee;
+    box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 0 0 20px;
+    overflow: hidden;
+    height: auto;
+    
+    width: 60%;
+    margin:10px auto;
+}
+#page-banner{
+    background-image: url("bg3.jpg");
+    background-size: 100%;
+    align-items: center;
+    padding: 5px 0 ;
+}
+#page-banner h1,
+#page-banner p{
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+}
+#movie-list,
+#add-movie{
+    margin: 30px;
+}
+#movie-list ul{
+    list-style-type: none;
+    
+    padding: 0;
+}
+#movie-list li{
+    border-left: 5px solid ;
+    border-color: lightgrey;
+    padding: 20px;
+    margin: 20px 10px;
+    color:black;
+}
+#movie-list li:hover{
+    border-color: blueviolet;
+
+}
+.delete{
+    float: right;
+    background-color: red;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover{
+    background-color: maroon;
+}
+#add-movie{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    
+    
+}
+button{
+    background-color: rgb(25, 196, 25);
+    border: none;
+    width: 60px;
+    margin-left: 2px;
+}
+button:hover{
+    border: 3px solid green;
+
+}
+input:hover{
+    border: 2px solid black;
+}
